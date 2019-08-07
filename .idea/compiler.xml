@@ -7,17 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="clouding" />
+        <module name="ConfigServer" />
         <module name="RegisterCenter" />
         <module name="Ribbon" />
+        <module name="ServiceA" />
+        <module name="ServiceB" />
         <module name="ServiceProvider" />
+        <module name="Zuul" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigServer" options="" />
       <module name="RegisterCenter" options="" />
       <module name="Ribbon" options="" />
+      <module name="ServiceA" options="" />
+      <module name="ServiceB" options="" />
       <module name="ServiceProvider" options="" />
+      <module name="Zuul" options="" />
     </option>
   </component>
 </project>

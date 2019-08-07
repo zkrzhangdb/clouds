@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/RegisterCenter/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceProvider/pom.xml" />
         <option value="$PROJECT_DIR$/Ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceA/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceB/pom.xml" />
+        <option value="$PROJECT_DIR$/Zuul/pom.xml" />
       </list>
     </option>
   </component>
