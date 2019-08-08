@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/ServiceA/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceB/pom.xml" />
         <option value="$PROJECT_DIR$/Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigTest/pom.xml" />
       </list>
     </option>
   </component>

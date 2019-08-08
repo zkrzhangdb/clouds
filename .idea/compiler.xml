@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="clouding" />
         <module name="ConfigServer" />
+        <module name="ConfigTest" />
         <module name="RegisterCenter" />
         <module name="Ribbon" />
         <module name="ServiceA" />
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ConfigServer" options="" />
+      <module name="ConfigTest" options="" />
       <module name="RegisterCenter" options="" />
       <module name="Ribbon" options="" />
       <module name="ServiceA" options="" />
