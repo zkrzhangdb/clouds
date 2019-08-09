@@ -16,4 +16,10 @@ public class ConsumerController {
         return computeService.addService();
     }
 
+    @RequestMapping(value = "/from", method = RequestMethod.GET)
+    public String from() {
+        return computeService.addService();
+    }
+
+
 }
