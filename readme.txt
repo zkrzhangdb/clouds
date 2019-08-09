@@ -10,20 +10,18 @@ ConfigServer   配置中心
 ConfigTest     配置测试
 Zuul 网关
 -----------------------------------------------------
-
-----
 启动服务注册中心 ：RegisterCenter
 启动配置服务 ：ConfigServer
 启动网关服务：Zuul
 启动负载中心：Ribbon
 启动为服务：ConfigTest(7002/7003)
-访问 http://localhost:5555/dis/from?accessToken=token
+访问 http://localhost:5555/getway/from?accessToken=token
 ConfigServer 7001 发送post请求 http://localhost:7001/bus/refresh （火狐 RESTClient 插件）
-再次访问 http://localhost:5555/dis/from?accessToken=token
+再次访问
+http://localhost:5555/getway/from?accessToken=token
+------------------------------------------------------
 
 
 
 
-
-
-
+http://localhost:5555/getway/from?accessToken=token

@@ -18,7 +18,13 @@ public class ConsumerController {
 
     @RequestMapping(value = "/from", method = RequestMethod.GET)
     public String from() {
-        return computeService.addService();
+        return computeService.fromService();
+    }
+
+
+    @RequestMapping(value = "/oasys", method = RequestMethod.GET)
+    public String  aoaSys() {
+        return computeService.oaService();
     }
 
 
